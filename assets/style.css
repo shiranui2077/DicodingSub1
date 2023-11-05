@@ -418,6 +418,44 @@ aside img {
   font-weight: normal;
 }
 
+.tab-content {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+
+.tab-content .card-title {
+  font-size: 1rem;
+}
+
+.tab-content .profile__overview {
+  width: 35%;
+  border-top: 2px solid black;
+}
+
+.tab-content .profile__overview .profile__about {
+  font-style: italic;
+}
+
+.tab-content .profile__detail {
+  width: 35%;
+  margin-left: 20px;
+  border-top: 2px solid black;
+}
+
+.tab-content .profile__detail .profile__identity .row {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.tab-content .profile__detail .profile__identity .row .profile__title {
+  width: 30%;
+}
+
 /* Footer */
 #footer {
   background: #E2EDE9;
